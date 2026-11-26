@@ -1,6 +1,6 @@
 # ML Assignment 3: MLPs, CNNs, Autoencoders, SVMs and Clustering on CIFAR10
 
-**Author:** Jiya Yadav (M26CSE004) · **Split seed:** 26004 (digits of the roll number) · **Report:** [`report/a3_report.pdf`](report/a3_report.pdf)
+**Author:** Jiya Yadav (M26CSE004) · **Split seed:** 26004 (digits of the roll number) ·
 
 Every number in the report is produced by the commands below. The scripts write the numbers to `runs/`,
 `results/` and `report/tables/`; no number is typed in by hand.
