@@ -1,0 +1,12 @@
+data/
+*.pt
+*.joblib
+features/*.npz
+__pycache__/
+*.pyc
+splits/*FAKE*
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.blg
+report/*.out

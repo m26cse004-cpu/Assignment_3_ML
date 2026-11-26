@@ -1,0 +1,20 @@
+name: a3-cifar10
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy>=1.26
+  - scipy>=1.11
+  - scikit-learn>=1.3
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - joblib
+  - pip:
+      # install the CUDA build matching your driver, e.g.
+      #   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+      - torch>=2.1
+      - torchvision>=0.16
+# After creating the environment, record exact versions:  conda env export --no-builds > environment.lock.yml
