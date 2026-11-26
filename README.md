@@ -134,6 +134,6 @@ regenerate all of them.
 
 ## 7. Smoke test without CIFAR10
 
-`A3_FAKE_DATA=1 EPOCHS=2 AE_EPOCHS=2 MEM_EPOCHS=3 SEEDS="26011" bash scripts/run_all.sh all` runs the whole
+`A3_FAKE_DATA=1 EPOCHS=2 AE_EPOCHS=2 MEM_EPOCHS=3 SEEDS="26004" bash scripts/run_all.sh all` runs the whole
 pipeline on a tiny synthetic dataset, to check the code only. Run it in a separate copy of the repository,
 because it writes its own (meaningless) results to `runs/`, `results/` and `configs/`.
