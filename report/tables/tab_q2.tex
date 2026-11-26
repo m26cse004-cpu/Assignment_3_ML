@@ -1,9 +1,0 @@
-\begin{table*}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
-\begin{adjustbox}{max width=\textwidth}
-\begin{tabular}{lrcccc}\toprule
-Model & Params & Clean & Pixel-permuted & Grayscale & RGB-trained on gray test$^\dagger$ \\\midrule
-MLP-B & 856,074 & 55.07 $\pm$ 0.43 (n=3) & 54.72 $\pm$ 0.20 (n=3) & 46.69 $\pm$ 0.37 (n=3) & 40.64 $\pm$ 0.26 (n=3) \\
-CNN-A & 816,202 & 87.54 $\pm$ 0.45 (n=3) & 52.05 $\pm$ 0.42 (n=3) & 85.37 $\pm$ 0.30 (n=3) & 82.79 $\pm$ 0.31 (n=3) \\
-\bottomrule\end{tabular}
-\end{adjustbox}
-\caption{Q2: test accuracy (\%) under the clean, spatially disturbed (fixed pixel permutation) and colour-removed conditions; each model is trained and tested with the same transform. $^\dagger$Shift diagnostic only (train/test transforms differ).}\label{tab:q2}\end{table*}
