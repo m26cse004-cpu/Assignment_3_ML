@@ -1,0 +1,8 @@
+{
+  "mlp_s_none": 0.001,
+  "mlp_b_none": 0.001,
+  "mlp_l_none": 0.003,
+  "mlp_xl_none": 0.001,
+  "cnn_a_none": 0.003,
+  "mlp_b_plain_none": 0.001
+}
