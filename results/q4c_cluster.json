@@ -1,0 +1,125 @@
+{
+  "method": "kmeans",
+  "k": 5,
+  "selection_rule": "max validation silhouette",
+  "test_ARI": 0.050601636819964865,
+  "test_NMI": 0.08024077873473609,
+  "test_purity": 0.1989,
+  "per_class": {
+    "airplane": {
+      "svm_recall": 0.571,
+      "dominant_cluster": 4,
+      "share_in_dominant_cluster": 0.401,
+      "cluster_entropy_bits": 1.9482510248444969
+    },
+    "automobile": {
+      "svm_recall": 0.618,
+      "dominant_cluster": 4,
+      "share_in_dominant_cluster": 0.318,
+      "cluster_entropy_bits": 2.2027415368141003
+    },
+    "bird": {
+      "svm_recall": 0.353,
+      "dominant_cluster": 1,
+      "share_in_dominant_cluster": 0.302,
+      "cluster_entropy_bits": 2.2700933066369995
+    },
+    "cat": {
+      "svm_recall": 0.334,
+      "dominant_cluster": 0,
+      "share_in_dominant_cluster": 0.309,
+      "cluster_entropy_bits": 2.2034345129444723
+    },
+    "deer": {
+      "svm_recall": 0.39,
+      "dominant_cluster": 1,
+      "share_in_dominant_cluster": 0.331,
+      "cluster_entropy_bits": 2.093383091331703
+    },
+    "dog": {
+      "svm_recall": 0.375,
+      "dominant_cluster": 3,
+      "share_in_dominant_cluster": 0.277,
+      "cluster_entropy_bits": 2.206567449943913
+    },
+    "frog": {
+      "svm_recall": 0.491,
+      "dominant_cluster": 1,
+      "share_in_dominant_cluster": 0.379,
+      "cluster_entropy_bits": 1.9930231506920335
+    },
+    "horse": {
+      "svm_recall": 0.53,
+      "dominant_cluster": 3,
+      "share_in_dominant_cluster": 0.318,
+      "cluster_entropy_bits": 2.2264072131414254
+    },
+    "ship": {
+      "svm_recall": 0.601,
+      "dominant_cluster": 4,
+      "share_in_dominant_cluster": 0.618,
+      "cluster_entropy_bits": 1.659172400708626
+    },
+    "truck": {
+      "svm_recall": 0.541,
+      "dominant_cluster": 4,
+      "share_in_dominant_cluster": 0.503,
+      "cluster_entropy_bits": 1.971934368510348
+    }
+  },
+  "largest_disagreements": {
+    "svm_easy_cluster_hard": [
+      {
+        "pair": "automobile-dog",
+        "svm_pair_confusion_rate": 0.0175,
+        "cluster_pair_ARI": 0.0428919572233556,
+        "svm_rank_easiest": 5.0,
+        "cluster_rank_easiest": 24.0,
+        "rank_gap": -19.0
+      },
+      {
+        "pair": "automobile-deer",
+        "svm_pair_confusion_rate": 0.012,
+        "cluster_pair_ARI": 0.06171057842908811,
+        "svm_rank_easiest": 2.5,
+        "cluster_rank_easiest": 20.0,
+        "rank_gap": -17.5
+      },
+      {
+        "pair": "ship-truck",
+        "svm_pair_confusion_rate": 0.0665,
+        "cluster_pair_ARI": 0.008290257158737015,
+        "svm_rank_easiest": 29.0,
+        "cluster_rank_easiest": 42.0,
+        "rank_gap": -13.0
+      }
+    ],
+    "svm_hard_cluster_easy": [
+      {
+        "pair": "airplane-ship",
+        "svm_pair_confusion_rate": 0.126,
+        "cluster_pair_ARI": 0.04676301523055299,
+        "svm_rank_easiest": 42.0,
+        "cluster_rank_easiest": 23.0,
+        "rank_gap": 19.0
+      },
+      {
+        "pair": "airplane-bird",
+        "svm_pair_confusion_rate": 0.074,
+        "cluster_pair_ARI": 0.08795269246221606,
+        "svm_rank_easiest": 33.0,
+        "cluster_rank_easiest": 18.0,
+        "rank_gap": 15.0
+      },
+      {
+        "pair": "automobile-truck",
+        "svm_pair_confusion_rate": 0.1905,
+        "cluster_pair_ARI": 0.028047776414911983,
+        "svm_rank_easiest": 44.0,
+        "cluster_rank_easiest": 30.0,
+        "rank_gap": 14.0
+      }
+    ]
+  },
+  "spearman_svm_vs_cluster_pairs": 0.7668742007997614
+}

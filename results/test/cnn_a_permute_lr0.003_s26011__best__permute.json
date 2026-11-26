@@ -1,0 +1,13 @@
+{
+  "tag": "cnn_a_permute_lr0.003_s26011",
+  "model": "cnn_a",
+  "train_transform": "permute",
+  "test_transform": "permute",
+  "ckpt": "best",
+  "seed": 26011,
+  "lr": 0.003,
+  "noise": 0.0,
+  "params": 816202,
+  "test_acc": 0.5249,
+  "n_test": 10000
+}

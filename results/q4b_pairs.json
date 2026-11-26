@@ -1,0 +1,294 @@
+{
+  "cat-dog": {
+    "classes": [
+      3,
+      5
+    ],
+    "multiclass_confusions": 410,
+    "binary_test_acc": 0.6165,
+    "n_sv": 1917,
+    "n_bounded_sv": 9,
+    "sv_fraction": 0.9585,
+    "frac_test_errors_inside_margin": 0.9674054758800521,
+    "frac_test_errors_confident": 0.03259452411994785,
+    "frac_test_points_inside_margin": 0.9425,
+    "geometry_train_subset": {
+      "centroid_dist": 1.5332219815761785,
+      "spread_a": 16.38307121883908,
+      "spread_b": 16.339421802734073,
+      "fisher_ratio": 0.00439082905605329
+    },
+    "shown_train_sv": [
+      {
+        "alpha": 10.0,
+        "y": "dog",
+        "f": 0.3192179974342091
+      },
+      {
+        "alpha": 10.0,
+        "y": "cat",
+        "f": -0.6630346493628622
+      },
+      {
+        "alpha": 10.0,
+        "y": "dog",
+        "f": 0.6858054821328651
+      },
+      {
+        "alpha": 10.0,
+        "y": "cat",
+        "f": -0.7389820618678431
+      },
+      {
+        "alpha": 0.3956933648196464,
+        "y": "cat",
+        "f": -1.0000000081503924
+      },
+      {
+        "alpha": 3.0413950134208245,
+        "y": "dog",
+        "f": 1.0000005133192778
+      },
+      {
+        "alpha": 2.1103386595532294,
+        "y": "dog",
+        "f": 1.0000011545042706
+      },
+      {
+        "alpha": 2.818480743010018,
+        "y": "cat",
+        "f": -0.9999987212358566
+      }
+    ],
+    "shown_test": [
+      {
+        "true": "dog",
+        "f": -0.00018578443767919978,
+        "pred": "cat"
+      },
+      {
+        "true": "cat",
+        "f": 0.0002605852908783915,
+        "pred": "dog"
+      },
+      {
+        "true": "cat",
+        "f": -0.0005971266598762057,
+        "pred": "cat"
+      },
+      {
+        "true": "cat",
+        "f": -0.0006058352615347998,
+        "pred": "cat"
+      },
+      {
+        "true": "dog",
+        "f": 0.0006310554571221719,
+        "pred": "dog"
+      },
+      {
+        "true": "dog",
+        "f": -0.0008886015260323107,
+        "pred": "cat"
+      },
+      {
+        "true": "cat",
+        "f": -0.0018668800916607428,
+        "pred": "cat"
+      },
+      {
+        "true": "cat",
+        "f": -0.0021159517878234987,
+        "pred": "cat"
+      }
+    ]
+  },
+  "automobile-truck": {
+    "classes": [
+      1,
+      9
+    ],
+    "multiclass_confusions": 381,
+    "binary_test_acc": 0.732,
+    "n_sv": 1843,
+    "n_bounded_sv": 0,
+    "sv_fraction": 0.9215,
+    "frac_test_errors_inside_margin": 0.9925373134328358,
+    "frac_test_errors_confident": 0.007462686567164179,
+    "frac_test_points_inside_margin": 0.914,
+    "geometry_train_subset": {
+      "centroid_dist": 2.715786304992899,
+      "spread_a": 17.42007950581212,
+      "spread_b": 17.278869839739013,
+      "fisher_ratio": 0.012251276490687784
+    },
+    "shown_train_sv": [
+      {
+        "alpha": 1.3048020345232756,
+        "y": "automobile",
+        "f": -1.0000000376482747
+      },
+      {
+        "alpha": 1.2746710637181027,
+        "y": "automobile",
+        "f": -1.000000113131724
+      },
+      {
+        "alpha": 0.6834526452290776,
+        "y": "truck",
+        "f": 0.9999997253411743
+      },
+      {
+        "alpha": 1.269391832773758,
+        "y": "truck",
+        "f": 1.0000004361905435
+      }
+    ],
+    "shown_test": [
+      {
+        "true": "automobile",
+        "f": -9.400466038306243e-05,
+        "pred": "automobile"
+      },
+      {
+        "true": "truck",
+        "f": -0.00015455222918150935,
+        "pred": "automobile"
+      },
+      {
+        "true": "truck",
+        "f": 0.0006820781430550982,
+        "pred": "truck"
+      },
+      {
+        "true": "automobile",
+        "f": 0.0007908685998686549,
+        "pred": "truck"
+      },
+      {
+        "true": "truck",
+        "f": 0.001168345085612893,
+        "pred": "truck"
+      },
+      {
+        "true": "automobile",
+        "f": -0.0014205660379426333,
+        "pred": "automobile"
+      },
+      {
+        "true": "truck",
+        "f": 0.0016952661878771313,
+        "pred": "truck"
+      },
+      {
+        "true": "automobile",
+        "f": -0.0019105167866425021,
+        "pred": "automobile"
+      }
+    ]
+  },
+  "bird-deer": {
+    "classes": [
+      2,
+      4
+    ],
+    "multiclass_confusions": 311,
+    "binary_test_acc": 0.679,
+    "n_sv": 1754,
+    "n_bounded_sv": 63,
+    "sv_fraction": 0.877,
+    "frac_test_errors_inside_margin": 0.9299065420560748,
+    "frac_test_errors_confident": 0.07009345794392523,
+    "frac_test_points_inside_margin": 0.8445,
+    "geometry_train_subset": {
+      "centroid_dist": 1.8759742631572096,
+      "spread_a": 14.5587578635437,
+      "spread_b": 13.85023259005226,
+      "fisher_ratio": 0.00871569638921636
+    },
+    "shown_train_sv": [
+      {
+        "alpha": 10.0,
+        "y": "deer",
+        "f": -0.20817477639133364
+      },
+      {
+        "alpha": 10.0,
+        "y": "deer",
+        "f": 0.033380592373179016
+      },
+      {
+        "alpha": 10.0,
+        "y": "deer",
+        "f": 0.03485939868261943
+      },
+      {
+        "alpha": 10.0,
+        "y": "bird",
+        "f": -0.06696861067386463
+      },
+      {
+        "alpha": 1.6668508841705862,
+        "y": "deer",
+        "f": 1.000000657500414
+      },
+      {
+        "alpha": 1.3255322679135864,
+        "y": "deer",
+        "f": 1.0000010271713689
+      },
+      {
+        "alpha": 0.8186550190252905,
+        "y": "bird",
+        "f": -0.999998960614345
+      },
+      {
+        "alpha": 0.20241311644718488,
+        "y": "deer",
+        "f": 1.000001080011749
+      }
+    ],
+    "shown_test": [
+      {
+        "true": "bird",
+        "f": -0.0005997949582211698,
+        "pred": "bird"
+      },
+      {
+        "true": "deer",
+        "f": 0.0007676482521826594,
+        "pred": "deer"
+      },
+      {
+        "true": "deer",
+        "f": -0.0008117048966952561,
+        "pred": "bird"
+      },
+      {
+        "true": "bird",
+        "f": 0.0008450164969121404,
+        "pred": "deer"
+      },
+      {
+        "true": "deer",
+        "f": -0.0009016725879097548,
+        "pred": "bird"
+      },
+      {
+        "true": "deer",
+        "f": 0.0015302981900936347,
+        "pred": "deer"
+      },
+      {
+        "true": "deer",
+        "f": 0.004386546321112891,
+        "pred": "deer"
+      },
+      {
+        "true": "bird",
+        "f": 0.004899400475424628,
+        "pred": "deer"
+      }
+    ]
+  }
+}

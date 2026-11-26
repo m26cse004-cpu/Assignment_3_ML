@@ -1,0 +1,10 @@
+mlp_s        params=   411,658  MACs/img=     410,880
+mlp_b        params=   856,074  MACs/img=     854,528
+mlp_l        params= 1,843,210  MACs/img=   1,840,128
+mlp_xl       params= 4,210,698  MACs/img=   4,204,544
+mlp_b_plain  params=   855,050  MACs/img=     854,528
+mlp_mem      params=10,510,346  MACs/img=  10,506,240
+cnn_a        params=   816,202  MACs/img= 131,532,672
+ae_c2        d=32    params= 2,669,701
+ae_c16       d=256   params= 2,676,883
+ae_c128      d=2048  params= 2,734,339

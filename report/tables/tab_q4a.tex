@@ -1,0 +1,22 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrrrc}\toprule
+Kernel & $C$ & Train acc & Val acc & SV fraction & Converged \\\midrule
+linear & 0.01 & 48.89 & 39.02 & 0.919 & yes \\
+linear & 0.1 & 51.55 & 36.94 & 0.895 & yes \\
+linear & 1 & 52.34 & 36.40 & 0.888 & no \\
+linear & 10 & 52.28 & 36.12 & 0.888 & no \\
+linear & 100 & 35.53 & 28.14 & 0.996 & no \\
+rbf & 0.01 & 33.90 & 31.36 & 1.000 & yes \\
+rbf & 0.1 & 45.28 & 39.16 & 0.988 & yes \\
+rbf & 1 & 80.25 & 47.44 & 0.956 & yes \\
+rbf$^\star$ & 10 & 99.92 & 48.06 & 0.972 & yes \\
+rbf & 100 & 100.00 & 47.90 & 0.971 & yes \\
+poly & 0.01 & 44.57 & 39.48 & 0.985 & yes \\
+poly & 0.1 & 70.00 & 45.70 & 0.945 & yes \\
+poly & 1 & 97.34 & 47.20 & 0.935 & yes \\
+poly & 10 & 99.99 & 45.06 & 0.929 & yes \\
+poly & 100 & 100.00 & 44.80 & 0.928 & yes \\
+\bottomrule\end{tabular}
+\end{adjustbox}
+\caption{Q4(a): SVM sweep on the fixed AE-256 representation (10k stratified training subset). $^\star$Selected on validation; test accuracy 48.04\%.}\label{tab:q4a}\end{table}

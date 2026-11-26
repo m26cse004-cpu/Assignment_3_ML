@@ -1,0 +1,13 @@
+\begin{table*}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{lrrrrrr}\toprule
+Representation & $d$ & Test MSE & Test PSNR & Linear & kNN & PCA-32 lin. \\\midrule
+ae-c2-s26011 & 32 & 0.01232 & 19.67 & 33.46 & 39.75 & 33.50 \\
+ae-c16-s26011 & 256 & 0.00211 & 27.52 & 40.58 & 30.18 & 36.42 \\
+ae-c128-s26011 & 2048 & 0.00036 & 35.32 & 47.82 & 24.08 & 37.86 \\
+dae-c128-sigma0.2-s26011 & 2048 & 0.00287 & 25.70 & 60.55 & 38.87 & 43.04 \\
+random-init-c128 & 2048 & -- & -- & 50.10 & 32.33 & 36.41 \\
+raw-pixels & 3072 & -- & -- & 37.49 & 33.43 & 37.13 \\
+\bottomrule\end{tabular}
+\end{adjustbox}
+\caption{Q3(c): reconstruction quality vs class information in frozen representations (test set; probe hyper-parameters chosen on validation). Accuracies in \%.}\label{tab:q3c}\end{table*}

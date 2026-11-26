@@ -1,0 +1,10 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrrr}\toprule
+Bottleneck $d$ & Params & Val MSE & Val PSNR & Test MSE \\\midrule
+32 & 2,669,701 & 0.01231 & 19.67 & -- \\
+256 & 2,676,883 & 0.00212 & 27.46 & -- \\
+2048 (selected) & 2,734,339 & 0.00037 & 35.27 & 0.00036 \\
+\bottomrule\end{tabular}
+\end{adjustbox}
+\caption{Q3(a): three convolutional AEs differing only in bottleneck size ($z\in\mathbb{R}^{c\times4\times4}$, $d=16c$). Selection by validation MSE only.}\label{tab:q3a}\end{table}

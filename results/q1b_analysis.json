@@ -1,0 +1,41 @@
+{
+  "run": "runs/mlp_mem_none_lr0.0003_s26011_noise0.4",
+  "t_star": 5,
+  "metrics_at_t_star": {
+    "clean_fit_acc": 0.5887777805328369,
+    "noisy_fit_acc": 0.11872222274541855,
+    "noisy_true_acc": 0.43444445729255676,
+    "val_acc": 0.46239998936653137,
+    "train_acc": 0.40075555443763733
+  },
+  "final_epoch": 200,
+  "metrics_final": {
+    "clean_fit_acc": 0.9892592430114746,
+    "noisy_fit_acc": 0.9877777695655823,
+    "noisy_true_acc": 0.002888888819143176,
+    "val_acc": 0.35839998722076416,
+    "train_acc": 0.9886666536331177
+  },
+  "first_epoch_reaching": {
+    "clean_fit_acc": {
+      "0.25": 1,
+      "0.5": 3,
+      "0.9": 16
+    },
+    "noisy_fit_acc": {
+      "0.25": 8,
+      "0.5": 11,
+      "0.9": 22
+    }
+  },
+  "noisy_true_acc_peak": {
+    "epoch": 4,
+    "value": 0.44350001215934753
+  },
+  "decision": {
+    "rule": "structure-before-memorisation iff at t*: noisy_fit_acc < 0.2 and noisy_true_acc > 0.10 (chance)",
+    "noisy_fit_below_threshold": true,
+    "noisy_true_above_chance": true,
+    "supported": true
+  }
+}

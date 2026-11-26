@@ -1,0 +1,13 @@
+\begin{table}[!tbp]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\columnwidth}
+\begin{tabular}{lrrr}\toprule
+Input to fixed CNN-A & Test acc (\%) & PSNR (dB) & Agreement w/ clean pred (\%) \\\midrule
+clean & 87.17 & -- & 100.00 \\
+noisy & 17.11 & 14.79 & 16.65 \\
+AE(noisy) & 32.03 & 20.14 & 32.61 \\
+DAE(noisy) & 62.11 & 25.01 & 64.34 \\
+AE(clean) & 85.45 & 35.32 & 93.29 \\
+DAE(clean) & 52.35 & 25.70 & 54.12 \\
+\bottomrule\end{tabular}
+\end{adjustbox}
+\caption{Q3(b): Gaussian noise $\sigma=0.2$ on test images; the classifier is the frozen clean CNN-A from Q2(a).}\label{tab:q3b}\end{table}

@@ -1,0 +1,13 @@
+{
+  "tag": "mlp_b_gray_lr0.001_s26011",
+  "model": "mlp_b",
+  "train_transform": "gray",
+  "test_transform": "gray",
+  "ckpt": "best",
+  "seed": 26011,
+  "lr": 0.001,
+  "noise": 0.0,
+  "params": 856074,
+  "test_acc": 0.4638,
+  "n_test": 10000
+}

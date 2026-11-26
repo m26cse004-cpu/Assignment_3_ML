@@ -1,0 +1,110 @@
+{
+  "sigma": 0.2,
+  "cnn_run": "runs/cnn_a_none_lr0.003_s26011",
+  "ae_run": "runs/ae_c128_s26011",
+  "dae_run": "runs/dae_c128_sigma0.2_s26011",
+  "conditions": {
+    "clean": {
+      "acc": 0.8717,
+      "psnr_vs_clean": null,
+      "agreement_with_clean_pred": 1.0,
+      "per_class_acc": {
+        "airplane": 0.9,
+        "automobile": 0.939,
+        "bird": 0.808,
+        "cat": 0.775,
+        "deer": 0.863,
+        "dog": 0.803,
+        "frog": 0.883,
+        "horse": 0.898,
+        "ship": 0.925,
+        "truck": 0.923
+      }
+    },
+    "noisy": {
+      "acc": 0.1711,
+      "psnr_vs_clean": 14.793787002563477,
+      "agreement_with_clean_pred": 0.1665,
+      "per_class_acc": {
+        "airplane": 0.005,
+        "automobile": 0.014,
+        "bird": 0.682,
+        "cat": 0.045,
+        "deer": 0.085,
+        "dog": 0.0,
+        "frog": 0.705,
+        "horse": 0.003,
+        "ship": 0.002,
+        "truck": 0.17
+      }
+    },
+    "AE(noisy)": {
+      "acc": 0.3203,
+      "psnr_vs_clean": 20.142915725708008,
+      "agreement_with_clean_pred": 0.3261,
+      "per_class_acc": {
+        "airplane": 0.097,
+        "automobile": 0.102,
+        "bird": 0.184,
+        "cat": 0.131,
+        "deer": 0.402,
+        "dog": 0.068,
+        "frog": 0.845,
+        "horse": 0.253,
+        "ship": 0.344,
+        "truck": 0.777
+      }
+    },
+    "DAE(noisy)": {
+      "acc": 0.6211,
+      "psnr_vs_clean": 25.013307571411133,
+      "agreement_with_clean_pred": 0.6434,
+      "per_class_acc": {
+        "airplane": 0.775,
+        "automobile": 0.663,
+        "bird": 0.586,
+        "cat": 0.735,
+        "deer": 0.446,
+        "dog": 0.596,
+        "frog": 0.325,
+        "horse": 0.662,
+        "ship": 0.791,
+        "truck": 0.632
+      }
+    },
+    "AE(clean)": {
+      "acc": 0.8545,
+      "psnr_vs_clean": 35.318450927734375,
+      "agreement_with_clean_pred": 0.9329,
+      "per_class_acc": {
+        "airplane": 0.888,
+        "automobile": 0.92,
+        "bird": 0.768,
+        "cat": 0.734,
+        "deer": 0.834,
+        "dog": 0.82,
+        "frog": 0.845,
+        "horse": 0.895,
+        "ship": 0.918,
+        "truck": 0.923
+      }
+    },
+    "DAE(clean)": {
+      "acc": 0.5235,
+      "psnr_vs_clean": 25.702747344970703,
+      "agreement_with_clean_pred": 0.5412,
+      "per_class_acc": {
+        "airplane": 0.715,
+        "automobile": 0.596,
+        "bird": 0.583,
+        "cat": 0.769,
+        "deer": 0.258,
+        "dog": 0.432,
+        "frog": 0.19,
+        "horse": 0.477,
+        "ship": 0.769,
+        "truck": 0.446
+      }
+    }
+  }
+}

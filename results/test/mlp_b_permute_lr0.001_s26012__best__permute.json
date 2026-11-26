@@ -1,0 +1,13 @@
+{
+  "tag": "mlp_b_permute_lr0.001_s26012",
+  "model": "mlp_b",
+  "train_transform": "permute",
+  "test_transform": "permute",
+  "ckpt": "best",
+  "seed": 26012,
+  "lr": 0.001,
+  "noise": 0.0,
+  "params": 856074,
+  "test_acc": 0.5455,
+  "n_test": 10000
+}
